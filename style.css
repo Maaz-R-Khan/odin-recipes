@@ -1,6 +1,14 @@
-h1 { 
-    color: red; 
+body { 
+    background-color: #13274F;
+    
 }
+
+
+h1, h3{ 
+    color: white; 
+    text-align: center;
+}
+
 
 .description { 
     background-color: rgb(38, 33, 33); 
@@ -15,11 +23,58 @@ h1 {
 }
 
 img { 
-height: 200px; 
+height: 200px;
+width: auto; 
+display: block;
+margin-left: auto;
+margin-right: auto;
+
 }
 
 .steps { 
     background-color: yellow; 
     font-family: Georgia, 'Times New Roman', Times, serif; 
     font-weight: bold; 
+}
+
+
+
+.recipe-list { 
+    display: flex;
+    flex-direction: row; 
+    list-style-type: none;
+}
+
+.recipe-list li { 
+    border: solid; 
+    margin: 30px; 
+    height: 700px; 
+    width: 400px; 
+    text-align: center;
+    border-radius: 30px; 
+    background-color: rgb(211, 198, 122);;
+    font-size: 20px; 
+   
+}
+
+#logo { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px; 
+}
+
+.img-container { 
+    padding: 30px; 
+}
+
+.recipe-button { 
+    padding:10px; 
+    height: 100px; 
+    background-color: beige;
+    border-radius: 10px; 
+}
+
+.recipe-button:hover { 
+    background-color: gray;
 }
